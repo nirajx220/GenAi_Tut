@@ -2,7 +2,7 @@ import threading
 import time
 
 def boil_milk():
-    priint(f"boil milk started...")
+    print(f"boil milk started...")
     time.sleep(2)
 
     print(f"boil milk finished...")
