@@ -10,3 +10,12 @@ class BlogPost(BaseModel):
     title: str
     content: str 
     images: Optional[List[str]] = None  # Optional field with default value None   
+
+
+cart_data = {
+    'user_id': 101,
+    'items': ['Laptop', 'Smartphone'],
+    'quantity': {'Laptop': 1, 'Smartphone': 2}
+}    
+
+cart = Cart(**cart_data)
