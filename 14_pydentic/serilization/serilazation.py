@@ -16,6 +16,14 @@ class User(BaseModel):
     address: Address
     tags: List[str] = Field(default_factory=list)
 
+class CustomUser(User):
+    name: str = Field(..., min_length=3, max_length=50, description="User name must be between 3 and 50 characters")
+    address: Address = Field(..., description="User address must be provided")
+    username: str = Field(..., min_length=3, max_length=30, description="Username must be between 3 and 30 characters")
+
+
+
+
     model_config = ConfigDict(
         json_encoders={
             datetime: lambda v: v.strftime('%d-%m-%Y %H:%M:%S')
