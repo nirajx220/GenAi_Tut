@@ -1,0 +1,9 @@
+Machine Learnign basics:
+    Machine learning is a subset of artificial intelligence where algorithms analyze data to learn patterns and make predictions or decisions without
+    being explicitly programmed for every task.  Unlike traditional programming, which relies on fixed rules, machine learning models improve their accuracy over time as they process more experience (data). 
+
+    Supervised Learning: Models are trained on labeled data (data with known answers) to predict outcomes for new inputs, commonly used for classification and regression tasks like spam detection or price forecasting. 
+    Unsupervised Learning: Algorithms analyze unlabeled data to discover hidden patterns, structures, or groupings, such as clustering similar customer behaviors or reducing data dimensions. 
+    Reinforcement Learning: Agents learn to make sequences of decisions by receiving rewards or penalties for their actions, aiming to maximize cumulative reward in dynamic environments like gaming or robotics.
+
+    
